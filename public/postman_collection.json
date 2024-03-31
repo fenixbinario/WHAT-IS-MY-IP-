@@ -1,0 +1,91 @@
+{
+	"info": {
+		"_postman_id": "2d9f202b-9e3e-4b29-8a61-e0af256f2e40",
+		"name": "ip.fenixbinario.com",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "5078400"
+	},
+	"item": [
+		{
+			"name": "GET INFO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://WHAT-IS-MY-IP.fenixbinario.repl.co",
+					"protocol": "https",
+					"host": [
+						"WHAT-IS-MY-IP",
+						"fenixbinario",
+						"repl",
+						"co"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET IP ON IPFY",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.ipify.org/?format=json",
+					"protocol": "https",
+					"host": [
+						"api",
+						"ipify",
+						"org"
+					],
+					"path": [
+						""
+					],
+					"query": [
+						{
+							"key": "format",
+							"value": "json"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "INFO",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ip.fenixbinario.com",
+					"protocol": "http",
+					"host": [
+						"ip",
+						"fenixbinario",
+						"com"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "GET IP",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://ip.fenixbinario.com/ip",
+					"protocol": "http",
+					"host": [
+						"ip",
+						"fenixbinario",
+						"com"
+					],
+					"path": [
+						"ip"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
